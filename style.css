@@ -1,0 +1,32 @@
+body {background-color: white;}
+/**Navbar mod***/
+
+.navbar {padding: 1rem; background-color: white; }
+.navbar-collapse {align-items: center; justify-content: space-between; } 
+/**Responsive navbar**/
+@media screen and (max-width: 767px ) 
+  {  .navbar-brand {display: none; } }
+/**Hero Section**/
+
+section {display: flex; flex-direction: column; align-content: center; justify-content: center;}
+h1 {font-size: 2.5rem; padding: 1rem;}
+.hero { background-image: url(fondo.jpeg); min-height: 450; text-align: center; padding-top: 2rem; max-width: 350; }
+.heroprincipal {color: white;}
+.yo { border-radius:  50%; border-style: groove; margin: 20px; }
+.heroprincipal h1 h2 {color: #FEFCF3; font-family: 'Barlow Condensed', sans-serif;}
+/**My Skills**/
+
+.skills {padding-right: 2rem; padding-left: 2rem;}
+.skill {padding-top: 2rem; padding-bottom: 2rem; color: #0002A1;}
+@media screen and (min-width: 700px) {
+  .logos {max-width: 200px; max-height: 200px; } } 
+ /**About me**/
+
+.black-tittle {text-align: center; color: #0002A1; padding-top: 3rem; min-width: 450; }
+.text1 {text-align: center; min-width: 450; padding-left: 1rem; padding-right: 1rem;}
+.text2 {text-align: center; min-width: 450; padding-left: 1rem; padding-right: 1rem;}
+/***Projects**/
+.projects {text-align: center; padding-top: 2rem; padding-bottom: 2rem; color: #0002A1; padding-top: 3rem; min-width: 450;}
+.carousel-inner {padding-left: 2rem; padding-right: 2rem; max-height: 400px;}
+/**Contact me**/
+.contact {text-align: center; color: #0002A1; padding-top: 3rem; min-width: 450;}
